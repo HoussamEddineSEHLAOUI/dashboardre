@@ -1,0 +1,64 @@
+.dashbord {
+}
+.data-nb {
+  display: flex;
+  justify-content: end;
+  width: auto;
+}
+.data-nb:last-of-type {
+  margin-right: 60px;
+}
+
+.count {
+  width: 450px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 0.2em;
+}
+.count-bg-1 {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 0%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+.count-bg-4 {
+  background: rgb(48, 162, 34);
+  background: linear-gradient(
+    90deg,
+    rgba(48, 162, 34, 1) 0%,
+    rgba(58, 253, 29, 1) 54%,
+    rgba(118, 229, 41, 1) 99%
+  );
+  margin-right: 100px;
+}
+.count-nb {
+  color: #ffff;
+  margin: 10px;
+  font-size: 45px;
+  height: 130px;
+}
+.count-ic {
+  color: #ffff;
+  font-size: 26px;
+  margin: 10px;
+}
+.graph {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill, 702px);
+  margin-left: 60px;
+}
+.cart-graph {
+  background-color: rgba(241, 241, 241, 0.377);
+  margin: 0.8em;
+  width: 700px;
+}
+.titre-graph {
+  color: gray;
+  margin: 20px;
+}
+.graph-bar {
+}
